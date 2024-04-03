@@ -15,10 +15,13 @@ public class ex14 {
 
         System.out.println("Imprimindo produtos:");
 
+
         for (int i = 0; i < qtdprodutos; i++) {
-            System.out.println("O " + (i + 1) + "º produto tem " + vetor[i] + " etapas.");
+            int tempo = vetor[i] * 30;
+            System.out.println("O tempo de producao do " + (i + 1) + "º produto tem " + tempo+ " minutos");
         }
 
         input.close();
     }
 }
+
